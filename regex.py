@@ -2,7 +2,7 @@ import re
 
 txt = "there will be no explanation, there will just be reputation"
 
-regex = r'there\w*\s*reputation'
+regex = r'there.*reputation'
 
 match = re.match(regex, txt)
 
